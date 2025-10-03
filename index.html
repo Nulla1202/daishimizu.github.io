@@ -1,166 +1,97 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dai Shimizu - 神経情報学研究者・エンジニアのポートフォリオ">
-    <meta name="keywords" content="神経科学,脳波,機械学習,研究者,エンジニア,Dai Shimizu">
-    <title>Dai Shimizu | Neuroscience Researcher & Engineer</title>
+    <meta name="description" content="Dai Shimizu - Neuroscience Researcher exploring memory encoding mechanisms">
+    <meta name="keywords" content="Neuroscience,EEG,Machine Learning,Hippocampus,Dai Shimizu">
+    <title>Neuro Is All I Need | Dai Shimizu</title>
     <link rel="stylesheet" href="src/styles/main.css">
-    <link rel="stylesheet" href="src/styles/animations.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">DS</div>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-background">
-            <canvas id="neuralNetwork"></canvas>
-        </div>
         <div class="hero-content">
-            <h1 class="glitch" data-text="DAI SHIMIZU">DAI SHIMIZU</h1>
-            <p class="hero-subtitle">Neuroscience Researcher & Engineer</p>
-            <div class="hero-tags">
-                <span class="tag">Brain-Computer Interface</span>
-                <span class="tag">Machine Learning</span>
-                <span class="tag">EEG/fMRI</span>
-            </div>
-            <a href="#about" class="cta-button">Explore My Work</a>
-        </div>
-        <div class="scroll-indicator">
-            <span></span>
+            <h1 class="title">Neuro Is All I Need</h1>
+            <p class="subtitle">Dai Shimizu</p>
+            <p class="tagline">Neuroscience Researcher · Osaka University</p>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Research Vision -->
+    <section id="vision">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="lead">大阪大学医学系研究科健康スポーツ科学神経情報学教室の研究者として、脳波解析と機械学習を用いた神経科学研究に取り組んでいます。</p>
-                    <p>東京工業大学工学部を3.5年で早期卒業し、現在は脳波・fMRI解析、機械学習、アプリケーション開発など幅広い領域で活動しています。</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <div class="stat-number" data-target="8">0</div>
-                        <div class="stat-label">研究プロジェクト</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-target="3">0</div>
-                        <div class="stat-label">論文投稿予定</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-target="5">0</div>
-                        <div class="stat-label">表彰・認定</div>
-                    </div>
+            <h2>Research Vision</h2>
+            <p class="lead">Expanding the possibilities of human experience through direct brain stimulation technology.</p>
+            <p>My ultimate goal is to realize immersive virtual reality indistinguishable from reality, as depicted in "The Matrix", by understanding and manipulating the brain's information processing mechanisms.</p>
+        </div>
+    </section>
+
+    <!-- Current Research -->
+    <section id="research">
+        <div class="container">
+            <h2>Current Research</h2>
+            <div class="research-card">
+                <h3>Information Encoding in the Hippocampus</h3>
+                <p>Investigating how multisensory information is compressed and encoded in the hippocampus using topological data analysis and deep learning approaches.</p>
+                <div class="research-meta">
+                    <span>Osaka University · Yanagisawa Lab</span>
+                    <span>2024 - Present</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
+    <!-- Publications & Presentations -->
+    <section id="publications">
+        <div class="container">
+            <h2>Publications & Presentations</h2>
+            <div class="publication-list">
+                <div class="pub-item">
+                    <h4>Feature Estimation of Global Language Processing in EEG Using Attention Maps</h4>
+                    <p>Dai Shimizu, Ko Watanabe, Andreas Dengel</p>
+                    <p class="venue">ACCV 2024 (Acceptance Rate: 32%)</p>
+                </div>
+                <div class="pub-item">
+                    <h4>Scaling Laws in Intracranial EEG</h4>
+                    <p>Dai Shimizu et al.</p>
+                    <p class="venue">NEURO 2025 (Oral Presentation)</p>
+                </div>
+                <div class="pub-item">
+                    <h4>Causal Connectivity in Semantic Judgment Tasks</h4>
+                    <p>Dai Shimizu et al.</p>
+                    <p class="venue">NEURO 2024 (Oral Presentation)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
     <section id="experience">
         <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline" id="timeline-container">
-                <!-- Timeline items will be dynamically loaded -->
+            <h2>Experience</h2>
+            <div class="exp-list" id="experience-list">
+                <!-- Dynamically loaded -->
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming</h3>
-                    <div class="skill-bars" data-category="programming"></div>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Collection</h3>
-                    <div class="skill-list" data-category="data-collection"></div>
-                </div>
-                <div class="skill-category">
-                    <h3>Research Tools</h3>
-                    <div class="skill-list" data-category="research-tools"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Awards Section -->
-    <section id="awards">
-        <div class="container">
-            <h2 class="section-title">Awards & Certifications</h2>
-            <div class="awards-grid" id="awards-container">
-                <!-- Awards will be dynamically loaded -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📧</div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <a href="mailto:daistar1202@gmail.com">daistar1202@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">📱</div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <a href="tel:+818014422494">+81 (80) 1442 2494</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">🎓</div>
-                        <div class="contact-details">
-                            <h3>Affiliation</h3>
-                            <p>大阪大学医学系研究科<br>神経情報学教室</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-visual">
-                    <canvas id="brainVisualization"></canvas>
-                </div>
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:daistar1202@gmail.com">daistar1202@gmail.com</a>
+                <a href="tel:+818014422494">+81 (80) 1442 2494</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Dai Shimizu. All rights reserved.</p>
-        </div>
+        <p>© 2025 Dai Shimizu. Neuro Is All I Need.</p>
     </footer>
 
-    <!-- Scripts -->
     <script type="module" src="dist/main.js"></script>
 </body>
 </html>
