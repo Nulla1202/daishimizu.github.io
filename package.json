@@ -1,0 +1,16 @@
+{
+  "name": "dai-shimizu-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Dai Shimizu - Neuroscience Researcher & Engineer",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^6.0.5"
+  }
+}

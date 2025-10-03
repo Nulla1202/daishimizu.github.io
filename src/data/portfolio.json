@@ -1,0 +1,177 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "period": "2025年4月～",
+      "title": "大阪大学医学系研究科健康スポーツ科学神経情報学教室",
+      "role": "研究者",
+      "description": "",
+      "type": "research"
+    },
+    {
+      "id": 2,
+      "period": "2024年11月 - Present",
+      "title": "スマホアプリ開発",
+      "role": "Engineer",
+      "description": "RAG開発(Python, Typescript)、推薦モデルの作成(Python)",
+      "type": "development"
+    },
+    {
+      "id": 3,
+      "period": "2024年9月 - Present",
+      "title": "スマホアプリ開発",
+      "role": "個人開発",
+      "description": "Zenly-likeな散歩した経路を共有できるスマホアプリの開発(Flutter)。8月を目途にAppStoreに申請予定",
+      "type": "development"
+    },
+    {
+      "id": 4,
+      "period": "2024年7月 - Present",
+      "title": "大阪大学医学部Takufumi Yanagisawa Lab",
+      "role": "Researcher (チームリーダー)",
+      "description": "サル頭蓋内脳波から特徴量抽出・分類問題への取り組み(Python, Matlab, Github, Latex)。Neural Networks投稿予定、NEURO2025発表予定。BLIPを用いた患者の状態Annotation。サル頭蓋内脳波前処理の自動化",
+      "type": "research",
+      "tags": ["Python", "Matlab", "EEG", "Machine Learning"]
+    },
+    {
+      "id": 5,
+      "period": "2024年5月 - Present",
+      "title": "関西学院大学Yoko Shimizu Lab",
+      "role": "共同研究 (チームリーダー)",
+      "description": "西宮市における住民動態から考えられる移動の要因調査(Python, Latex)。Cities(IF: 6.0)投稿予定",
+      "type": "research",
+      "tags": ["Python", "Data Analysis"]
+    },
+    {
+      "id": 6,
+      "period": "2023年7月 - Present",
+      "title": "株式会社アラヤ",
+      "role": "インターンシップ",
+      "description": "脳波・fMRI同時測定時の脳波前処理の自動化。ニッチな内容を推薦に包含可能なRecommendation Modelの構築。論文投稿準備中",
+      "type": "internship",
+      "tags": ["Python", "EEG", "fMRI", "Recommendation System"]
+    },
+    {
+      "id": 7,
+      "period": "2022年9月 - 2024年9月",
+      "title": "東京工業大学Natsue Yoshimura Lab",
+      "role": "早期配属・卒業論文 (チームリーダー)",
+      "description": "意味判断課題下において優位的に働く脳部位の解析・脳部位間の結合の評価(Matlab, Latex)。NEURO2024発表。Matlabにて前処理・処理過程の自動化スクリプトの開発(Githubにて限定公開)",
+      "type": "research",
+      "tags": ["Matlab", "Brain Analysis"]
+    },
+    {
+      "id": 8,
+      "period": "2024年2月 - 2024年5月",
+      "title": "Immersive Quantified Learning Lab, DFKI",
+      "role": "研究留学 (チームリーダー)",
+      "description": "聴覚時・発話時の脳波に現れる特徴の解析・機械学習の説明可能性を利用した特徴の推定(Python, Matlab, Github)。ACCV2024発表(Acceptance Rate: 32%)",
+      "type": "research-abroad",
+      "tags": ["Python", "Matlab", "EEG", "XAI"]
+    },
+    {
+      "id": 9,
+      "period": "2023年8月 - 2023年9月",
+      "title": "Alberto Stolfi Lab, Georgia Institute of Technology",
+      "role": "研究留学",
+      "description": "CRISPR-Cas9を用いたホヤの遺伝子改変、並びにsgRNAやプラスミドの設計。遺伝子改変の結果を自動化するプログラムの開発(Python, Google Drive)",
+      "type": "research-abroad",
+      "tags": ["Python", "CRISPR", "Bioinformatics"]
+    }
+  ],
+  "skills": {
+    "programming": [
+      { "name": "Python", "level": 95, "category": "Native" },
+      { "name": "Matlab", "level": 90, "category": "Native" },
+      { "name": "TypeScript", "level": 85, "category": "Native" },
+      { "name": "LaTeX", "level": 85, "category": "Native" },
+      { "name": "Flutter", "level": 80, "category": "Advanced" },
+      { "name": "JavaScript", "level": 70, "category": "Intermediate" },
+      { "name": "HTML/CSS", "level": 70, "category": "Intermediate" }
+    ],
+    "dataCollection": [
+      "Electroencephalography (EEG)",
+      "Functional MRI (fMRI)",
+      "Brain-Computer Interface"
+    ],
+    "researchTools": [
+      "Github",
+      "Machine Learning",
+      "Deep Learning",
+      "Signal Processing",
+      "Statistical Analysis"
+    ]
+  },
+  "awards": [
+    {
+      "id": 1,
+      "title": "中谷財団ARIPプログラム",
+      "description": "倍率約30倍。中谷財団RIESプログラム後の選抜を経て参加可能なプログラム。ドイツでの研究留学の渡航費・滞在費・生活費・研究費を支給。総額約200万円。",
+      "year": "2024",
+      "type": "scholarship",
+      "amount": "¥2,000,000"
+    },
+    {
+      "id": 2,
+      "title": "Autumn School for Computational Neuroscience in Japan",
+      "description": "日本神経科学学会が主催する秋の研究合宿。滞在費・滞在中食事・移動費を支給。総額約10万円。",
+      "year": "2024",
+      "type": "conference",
+      "amount": "¥100,000"
+    },
+    {
+      "id": 3,
+      "title": "中谷財団RIESプログラム",
+      "description": "倍率約10倍。ジョージア工科大学のBioMedical-Engineeringを主とする研究室に配属し、2か月間研究を行う。渡航費・滞在費・生活費・研究費を支給。総額約300万円。",
+      "year": "2023",
+      "type": "scholarship",
+      "amount": "¥3,000,000"
+    },
+    {
+      "id": 4,
+      "title": "東京工業大学B2Dプログラム",
+      "description": "東京工業大学の博士取得を見据えた早期研究室配属プログラム。配属者は自由意志の下で任意の学部学科の研究室に優先配属が可能。テイラーメイド式のカリキュラムにより卒業単位要件の変更が可能。海外出張費30万円支給。",
+      "year": "2022",
+      "type": "program",
+      "amount": "¥300,000"
+    },
+    {
+      "id": 5,
+      "title": "京都大学ELCAS・大阪大学SEEDSプログラム",
+      "description": "京都大学・大阪大学が各々主催する、高校生に向けた早期研究プログラム。終了時ポスター発表を実施。取得プログラムに応じパソコン・交通費・合宿費が支給。",
+      "year": "2020",
+      "type": "program"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Google IT Support",
+      "issuer": "Google from Coursera",
+      "year": "2023"
+    },
+    {
+      "title": "Google Data Analytics",
+      "issuer": "Google from Coursera",
+      "year": "2023"
+    },
+    {
+      "title": "Machine Learning",
+      "issuer": "Deeplearning.AI & Stanford University from Coursera",
+      "year": "2023"
+    },
+    {
+      "title": "Large Language Model",
+      "issuer": "Matsuo Lab at the University of Tokyo",
+      "year": "2024"
+    }
+  ],
+  "education": [
+    {
+      "degree": "工学学士",
+      "school": "東京工業大学工学部",
+      "major": "工学院情報通信系",
+      "period": "2021年4月 - 2024年9月",
+      "note": "半年早期卒業 (3.5年)"
+    }
+  ]
+}
