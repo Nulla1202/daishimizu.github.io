@@ -1,4 +1,4 @@
-*.docx
+data/
 
 # Dependencies
 node_modules/
